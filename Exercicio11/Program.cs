@@ -1,4 +1,4 @@
-﻿namespace Exercicio11 //Identificar se o número é primo ou não.Por motivos de sanidade mental eu pulei esse exercício.
+﻿namespace Exercicio11 //Identificar se o número é primo ou não.
 {
     internal class Program
     {
@@ -43,7 +43,8 @@
                     break;
                 }
             } while (continuar == true);
-
+            // for( int i = 2;                             i <= 10;                                    i++)
+            //inicia determinando um valor inicial    número de repetições    para cada vez repetido adiciona +1 no i 
         }
     }
 }
